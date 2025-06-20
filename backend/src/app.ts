@@ -6,7 +6,7 @@ import errorHandler from "./middleware/errorHandler";
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:8081", // adjust if frontend uses a different port
+  origin: "https://restomart-frontend.onrender.com/", // adjust if frontend uses a different port
   credentials: true
 }));
 app.use(express.json());
