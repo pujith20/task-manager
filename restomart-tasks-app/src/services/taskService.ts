@@ -1,7 +1,7 @@
 
 import { Task, CreateTaskRequest, UpdateTaskRequest } from '../types/task';
 
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = 'https://task-manager-41zp.onrender.com/api';
 
 export const taskService = {
   // Get all tasks
